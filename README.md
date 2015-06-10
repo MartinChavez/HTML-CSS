@@ -1,2 +1,1 @@
-# HTMLandCSS
-HTML and CSS: Test-Driven Learning
+# HTML and CSS: Test-Driven Learning
