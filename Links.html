@@ -1,0 +1,57 @@
+<!--HTML: Links-->
+<!-- Links allow users to navigate between resources(Web Pages)-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Links</title>
+</head>
+<body>
+
+<!-- To create a link you need <a> tags-->
+<!-- All the content you add inside the <a> tags will become a reference to another resource-->
+<p>
+This is a <a>link</a> without an href
+</p>
+
+<!--HTML: Attributes-->
+<!-- Allow you to add additional features or information to a tag->
+
+<!-- href attribute->
+<!-- Sets which resource should be retrieved when the link is reached-->
+<p>
+<!-- The value of attributes should always be in quotes-->
+This is a <a href="Links.html">link</a> with an href
+</p>
+
+<!-- target attribute->
+<!-- Sets where the page you set in the href attribute should open-->
+<p>
+    <!-- _blank attribute will open the resource in a new tab/window -->
+    This is a <a href="Links.html" target="_blank" >link</a> with an href and a target of _blank
+</p>
+<p>
+    <!-- _self attribute will open the resource in the same window(this is the default behaviour) -->
+    This is a <a href="Links.html" target="_self" >link</a> with an href and a target of _self
+</p>
+
+<!--Absolute paths-->
+<!-- Absolute paths retrieve a specific file from a specific server -->
+<p>
+    <!-- The absolute paths always include the protocol and the server -->
+    This is a <a href="http://localhost:63342/HTMLandCSS/HTML/Links.html">link</a> with an absolute path
+</p>
+
+<!--Relative  paths-->
+<!-- Relative paths retrieve a file without specifying a server -->
+<p>
+    <!-- The browser assumes that you refer to  the same server that your page is on -->
+    This is a <a href="Links.html">link</a> with an relative path
+</p>
+
+<!-- Relative links should be used when linking to pages that are located on the same site -->
+<!-- Absolute links should be used when linking to pages that are located on another site/server-->
+
+</body>
+</html>
