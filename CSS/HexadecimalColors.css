@@ -1,0 +1,24 @@
+/*Hexadecimal colors*/
+/*You can specify different colors in CSS using hexadecimal numbers*/
+
+p {
+    /*This is an example of a color specified in a word and in hexadecimal*/
+    color: red;
+    color:#FF0000;
+}
+/*Each hex color contains three different parts*/
+
+/* The first two numbers set the amount of red */
+/* The second two numbers set the amount of green */
+/* The last two numbers set the amount of blue */
+
+/*Decimal: Color values for each section range from 0-255  */
+/*Hexadecimal: Color values for each section range from 00-FF  */
+
+span {
+    color:#FFFF00;
+    color:black;
+}
+
+/*Colors*/
+/*By using hexadecimal numbers to set colors, we get 256 possible combinations for each of the three color channels*/
