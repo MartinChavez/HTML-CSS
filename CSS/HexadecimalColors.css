@@ -2,8 +2,9 @@
 /*You can specify different colors in CSS using hexadecimal numbers*/
 
 p {
-    /*This is an example of a color specified in a word and in hexadecimal*/
+    /*This is an example of a color specified in a word*/
     color: red;
+    /*This is an example of a color specified in hexadecimal*/
     color:#FF0000;
 }
 /*Each hex color contains three different parts*/
