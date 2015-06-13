@@ -1,0 +1,42 @@
+/*Divs*/
+/*Block-level tag that provides a generic way to group related content into sections on a page*/
+
+/*You can remove browser padding */
+body {
+    padding: 0 0 0 0;
+}
+/*You can then style each <div> section */
+.header {
+    padding: 10px 10px 10px 10px;
+    background-color: coral;
+}
+
+.main-content {
+    padding: 20px 20px 20px 20px;
+    border: 2px solid darkgreen;
+    margin: 30px 0 0 0;
+}
+
+/*The width and height of any tag's content area can be changed in CSS */
+.main-content {
+    width: 150px;
+}
+
+/*Centering content*/
+
+/* auto value*/
+/* Sets the content to take as much space as you can*/
+/* This forces the content to be moved in the opposite direction*/
+
+/*If centering an entire block-level tag AND*/
+/*It has fixed-width THEN*/
+/*Set the left and right margins to auto*/
+.main-content{
+    margin: 30px auto 0 auto;
+}
+
+/*If centering children inside a block-level tag THEN*/
+/*Set the text-align of the children to center*/
+h1 {
+    text-align: center;
+}
