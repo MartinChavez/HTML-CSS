@@ -1,0 +1,40 @@
+/*Selectors*/
+/*Allow you to specify the style of different elements having the same type of tag*/
+
+/*Classes*/
+/*You can use classes to differentiate between tags*/
+/*You can access classes in CSS by putting a period in front of the class name*/
+.nav {
+    padding-left:20px;
+}
+/*Classes in descendant selectors*/
+/*Classes can be used interchangeably with tags*/
+
+/*This selector will find all the <a> tags that are children of any tag with a class of .nav */
+.nav a{
+    color:seagreen;
+}
+
+/*Selectors: Order*/
+
+/*When you use type selectors, the order doesn't matter*/
+/*When you use class and type selectors, the order matters*/
+
+/*This ul padding overrides the .nav padding because it comes after the .nav*/
+ul {
+ padding: 0 0 0 50px;
+}
+
+/*Best Practice*/
+
+/*Declare the broadest rules with type selectors first*/
+/*Declare the rules with class selectors after*/
+
+/*The broader rules cascade down and become defaults*/
+/*More specific rules can change the defaults*/
+ul {
+    padding: 0 0 0 50px;
+}
+.nav {
+    padding-left:20px;
+}
