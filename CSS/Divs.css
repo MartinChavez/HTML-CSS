@@ -1,10 +1,11 @@
 /*Divs*/
 /*Block-level tag that provides a generic way to group related content into sections on a page*/
 
-/*You can remove browser padding */
+/*Removing browser padding */
 body {
     padding: 0 0 0 0;
 }
+
 /*You can then style each <div> section */
 .header {
     padding: 10px 10px 10px 10px;
