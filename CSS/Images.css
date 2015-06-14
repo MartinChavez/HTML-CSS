@@ -1,0 +1,23 @@
+/*We change the size of the image with the height property*/
+img {
+    height: 50px;
+    width: auto;
+}
+
+.logos{
+    list-style-type: none;
+    padding: 0;
+}
+/* You can align content images by using ul and li and add the following properties*/
+.logos li{
+    display: inline;
+    padding-left: 11px;
+}
+
+/* Centering Images */
+/* <img> is an inline-level tag so it can't be centered with text-align */
+/* You can set the image to display:block and center it with margin:auto*/
+.center img{
+    display:block;
+    margin: 0 auto 0 auto;
+}
