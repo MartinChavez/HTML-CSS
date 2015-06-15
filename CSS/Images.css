@@ -85,12 +85,12 @@ img {
 /*You can achieve this by creating a <div> tag to completely contains a background image*/
 /*The you can insert text tags inside of it*/
 .background-image-three{
-    /*width and height should be equal tp the size of the image*/
+    /*width and height should be equal to the size of the image*/
     width: 630px;
     height: 246px;
     background: cyan url(../Images/js.png) top left no-repeat;
 }
-
+/*You can then style the text inside to background image*/
 .background-image-three h1{
     margin:0;
     background-color: whitesmoke;
