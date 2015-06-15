@@ -4,11 +4,21 @@ img {
     width: auto;
 }
 
+.background-image{
+    height: 800px;
+}
+.background-image-two{
+    height: 200px;
+}
+
 .logos{
     list-style-type: none;
     padding: 0;
 }
-/* You can align content images by using ul and li and add the following properties*/
+
+/* Content Images*/
+
+/* You can align content images by using ul and li and adding the following properties*/
 .logos li{
     display: inline;
     padding-left: 11px;
@@ -20,4 +30,71 @@ img {
 .center img{
     display:block;
     margin: 0 auto 0 auto;
+}
+
+/* Layout(Background) Images*/
+/* You can use the background property to set layout images*/
+
+/* Background color*/
+/* Even when you set a background image, you need to set the background color (as a fallback mechanism)*/
+.background-image{
+    background-color: darkgrey;
+}
+
+/* Background image*/
+/* It can point to a relative or absolute path*/
+
+.background-image{
+    /*The path has to exists inside the url() code*/
+    background-image: url(../Images/HTML.png); /*You don't need quotes*/
+}
+
+/* Background position*/
+/* It is used to position the image in a container*/
+.background-image{
+    /*The first word can be: top,center or bottom*/
+    /*The second word can be: left,center or right*/
+    background-position: center right;
+}
+
+/* Background repeat*/
+/* It is used to repeat titled images*/
+/* The image is then repeated all across the body*/
+.background-image{
+    /*You can use the following values*/
+    /*repeat: repeat in both directions*/
+    /*repeat-x: tile the image horizontally*/
+    /*repeat-y: tile the image vertically*/
+    /*no-repeat: doesn't repeat the tile*/
+    background-repeat: repeat;
+}
+
+/* Shortening background property into a single line*/
+.background-image{
+             /* color   image                  position     repeat*/
+    background: darkgrey url(../Images/HTML.png) center right repeat;
+}
+
+/*Different backgrounds on different containers*/
+/*You can achieve depth and separation on the different containers in the page*/
+.background-image-two{
+    background: darkgrey url(../Images/js.png) center right repeat;
+}
+
+/* Adding text on top of Layout(Background) Images */
+/*You can achieve this by creating a <div> tag to completely contains a background image*/
+/*The you can insert text tags inside of it*/
+.background-image-three{
+    /*width and height should be equal tp the size of the image*/
+    width: 630px;
+    height: 246px;
+    background: cyan url(../Images/js.png) top left no-repeat;
+}
+
+.background-image-three h1{
+    margin:0;
+    background-color: whitesmoke;
+    color: darkslategrey;
+    padding: 5px  0 5px 15px;
+    text-transform: uppercase;
 }
