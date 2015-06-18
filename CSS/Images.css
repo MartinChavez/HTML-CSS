@@ -12,6 +12,7 @@ img {
 }
 
 .logos{
+    /*Removing the dots that appear on lists*/
     list-style-type: none;
     padding: 0;
 }
@@ -43,7 +44,6 @@ img {
 
 /* Background image*/
 /* It can point to a relative or absolute path*/
-
 .background-image{
     /*The path has to exists inside the url() code*/
     background-image: url(../Images/HTML.png); /*You don't need quotes*/
@@ -97,4 +97,11 @@ img {
     color: darkslategrey;
     padding: 5px  0 5px 15px;
     text-transform: uppercase;
+}
+
+/* Floating images*/
+/* You can achieve this by putting the elements inside one <li> tag and float the desired element to the left*/
+.floating img{
+    float:left;
+    padding-right: 10px;
 }
