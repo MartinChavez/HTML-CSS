@@ -32,7 +32,7 @@ Basics.html
 
 
 <!-- <!DOCTYPE> tag -->
-<!-- Defined the HTML Version the browser should use to display the HTML Tags-->
+<!-- Defines the HTML Version the browser should use to display the HTML Tags-->
 <!-- By writing <!DOCTYPE html> and not specifying the version, the browser will use the latest version-->
 <!DOCTYPE html>
 
