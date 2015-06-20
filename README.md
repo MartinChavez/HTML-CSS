@@ -164,7 +164,8 @@ ol li:first-child{
 ```
 Learn by doing
 ====================
-All the html files are linked to their respective CSS file (with the same name). Open your browser and start learning!
+All the html files are linked to their respective CSS file. Open your browser,change the content and start learning!
+
 <img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Play.png"/>
 
 Questions ?
