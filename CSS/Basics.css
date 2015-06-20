@@ -14,12 +14,11 @@ p {
 
 /*Selector: Syntax*/
 /*
-
 selectorName {
     property: value;
 }
-
 */
+
 /* A single selector can change multiple properties*/
 p {
     text-overline: 3;
