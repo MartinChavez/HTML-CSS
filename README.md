@@ -4,5 +4,17 @@ This Tutorial will guide you to learn HTML and CSS. Each unit contains an annota
 
 Technologies
 ====================
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="100px" height="100px" />
-<img src="http://ohdoylerules.com/content/images/css3.svg" width="100px" height="100px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50px" height="50px" />
+<img src="http://ohdoylerules.com/content/images/css3.svg" width="50px" height="50px" />
+
+Topics
+================
+ - Basics
+ - Divs
+ - Fonts
+ - Hexadecimal Colors
+ - Images
+ - Links
+ - Selectors
+ - The Box Model
+ - Web Forms
