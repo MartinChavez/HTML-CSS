@@ -1,6 +1,6 @@
 # HTML/CSS: Tutorial
 
-This Tutorial will guide you to learn HTML and CSS. Each unit contains an annotated tutorial on the code that you can use to expand your Web Developer skills.
+Use this tutorial as a guide to learning HTML and CSS. Each topical unit contains an annotated lesson that can assist you in web development.
 
 Technologies
 ====================
@@ -32,7 +32,7 @@ Basics.html
 
 
 <!-- <!DOCTYPE> tag -->
-<!-- Defines the HTML Version the browser should use to display the HTML Tags-->
+<!-- Defines the HTML version the browser should use to display the HTML Tags-->
 <!-- By writing <!DOCTYPE html> and not specifying the version, the browser will use the latest version-->
 <!DOCTYPE html>
 
@@ -116,10 +116,10 @@ Basics.html
 /*It is used to change the appearance of HTML*/
 
 /*Selectors*/
-/*CSS element that allow you to find HTML elements*/
+/*CSS elements that allow you to find HTML elements*/
 
 /*Selectors: Type*/
-/* You can create a Type selectors by writing the tag name without <> brackets*/
+/* You can create a Type selector by writing the tag name without <> brackets*/
 p {
     text-overline: 3;/* You can change any property of the tag*/
 }
@@ -150,7 +150,7 @@ ul li {
 }
 
 /* Pseudo Selectors*/
-/* Pseudo-selector is a modifier that can be added to a selector to select a tag
+/* Pseudo-selectors are modifiers that can be added to a selector to select a Tag
 only when a certain condition has occurred*/
 ul li:hover{
     color: pink;
@@ -179,13 +179,13 @@ TheBoxModel.css
 
 /*Inline-level tags*/
 /*Every tag that is not block-level, is called inline-level/
-/*The content of this tags do not try to take the entire width of the container*/
+/*The content of these tags do not try to take the entire width of the container*/
 
 /*Examples of inline-level tags*/
 /* a, img , input, label*/
 
 /*Converting block-level tags into inline-level tags*/
-/*Allow you to display items horizontally instead of vertically*/
+/*Allows you to display items horizontally instead of vertically*/
 
 ul li {
     display: inline;
