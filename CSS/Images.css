@@ -45,7 +45,7 @@ img {
 /* Background image*/
 /* It can point to a relative or absolute path*/
 .background-image{
-    /*The path has to exists inside the url() code*/
+    /*The path has to exist inside the url() code*/
     background-image: url(../Images/HTML.png); /*You don't need quotes*/
 }
 
@@ -82,8 +82,8 @@ img {
 }
 
 /* Adding text on top of Layout(Background) Images */
-/*You can achieve this by creating a <div> tag to completely contains a background image*/
-/*The you can insert text tags inside of it*/
+/*You can achieve this by creating a <div> tag to completely contain a background image*/
+/*Then, you can insert text tags inside of it*/
 .background-image-three{
     /*width and height should be equal to the size of the image*/
     width: 630px;

@@ -1,7 +1,7 @@
 /*Divs*/
 /*Block-level tag that provides a generic way to group related content into sections on a page*/
 
-/*Removing browser padding */
+/*Browser Reset: Removing browser padding */
 body {
     padding: 0 0 0 0;
 }
