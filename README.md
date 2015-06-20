@@ -162,3 +162,15 @@ ol li:first-child{
     color: lightcoral;
 }
 ```
+Questions ?
+====================
+If you have any questions, please feel free to ask me:
+[Martin Chavez Aguilar](mailto:martin.chavez@live.com)
+
+Contributors
+====================
+* [Martin Chavez Aguilar](https://www.linkedin.com/in/martinchavezaguilar) - Wrote the project
+
+References
+====================
+* [Code School](https://www.codeschool.com/)
