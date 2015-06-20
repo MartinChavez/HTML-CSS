@@ -107,3 +107,58 @@ Topics
 </body>
 </html>
 ```
+ Basics.css
+====================
+```CSS
+/*CSS*/
+
+/*Set of rules for the styles of HTML elements*/
+/*It is used to change the appearance of HTML*/
+
+/*Selectors*/
+/*CSS element that allow you to find HTML elements*/
+
+/*Selectors: Type*/
+/* You can create a Type selectors by writing the tag name without <> brackets*/
+p {
+    text-overline: 3;/* You can change any property of the tag*/
+}
+
+/*Selector: Syntax*/
+/*
+
+selectorName {
+    property: value;
+}
+
+*/
+/* A single selector can change multiple properties*/
+p {
+    text-overline: 3;
+    text-underline: dot-dash;
+    color: red;
+}
+
+/* Selectors will select all matching tags on the page and apply the properties*/
+
+/* Descendant Selectors*/
+/* They can be used to select tags only if they are children of another tag*/
+
+ul li {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+/* Pseudo Selectors*/
+/* Pseudo-selector is a modifier that can be added to a selector to select a tag
+only when a certain condition has occurred*/
+ul li:hover{
+    color: pink;
+}
+
+/* Pseudo Selector: First Child*/
+/* The :first-child pseudo-selector can be applied to narrow the amount of child selected*/
+ol li:first-child{
+    color: lightcoral;
+}
+```
