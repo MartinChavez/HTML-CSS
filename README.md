@@ -28,7 +28,7 @@ Basics.html
 <!--HTML, is the standard markup language used to create web pages-->
 
 <!-- To add content, you should use HTML tags -->
-<!-- This pre-defined tags, have opening and closing versions -->
+<!-- These pre-defined tags, have opening and closing versions -->
 
 
 <!-- <!DOCTYPE> tag -->
