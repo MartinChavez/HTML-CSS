@@ -162,6 +162,65 @@ ol li:first-child{
     color: lightcoral;
 }
 ```
+
+TheBoxModel.css
+====================
+```CSS
+/*The Box Model*/
+/*Every tag shown in the body is contained in an invisible rectangle called Box*/
+/*The box model is a way to describe the borders and spacing in between the boxes of each tag*/
+
+/*Block-level tags*/
+/*The content of block-level tags take up the entire width (horizontal space) of the container*/
+/*Every box is pushed to the line below*/
+
+/*Examples of block-level tags*/
+/* h1 , h2,  h3,  p,  ul,  li*/
+
+/*Inline-level tags*/
+/*Every tag that is not block-level, is called inline-level/
+/*The content of this tags do not try to take the entire width of the container*/
+
+/*Examples of inline-level tags*/
+/* a, img , input, label*/
+
+/*Converting block-level tags into inline-level tags*/
+/*Allow you to display items horizontally instead of vertically*/
+
+ul li {
+    display: inline;
+}
+
+/*Box Model Parts*/
+
+/*Content area*/
+/*Contains the actual content (text, images, etc.)*/
+/*It will take up as much vertical space as it needs to display the content inside*/
+
+/*Padding*/
+/*Padding is a layer on every edge of the content area*/
+/*Padding can be added to the top, right, bottom or left of the content area*/
+
+/*Border*/
+/*Border can be added to the top, right, bottom or left of the padding*/
+
+/*Margin*/
+/*Border can be added to the top, right, bottom or left of the border*/
+
+/*Box Model: Size*/
+/*The full size of a box is calculated by adding all of these properties*/
+/* Content Area width + padding-left + padding-right + border-left + border-right + margin-left + margin-right*/
+
+/*Applying the box model properties*/
+/*It is possible to add every property at once*/
+/*Padding*/
+h2 {
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-right: 9px;
+    padding-left: 3px;
+}
+```
 Learn by doing
 ====================
 All the html files are linked to their respective CSS file. Open your browser, change the content and start learning!
