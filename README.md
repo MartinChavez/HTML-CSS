@@ -1,6 +1,6 @@
 # HTML/CSS: Tutorial
 
-This Tutorial will guide you to learn HTML and CSS. Each unit contains an annotated tutorial on the code that you can use to expand your Front-End Developer skills.
+This Tutorial will guide you to learn HTML and CSS. Each unit contains an annotated tutorial on the code that you can use to expand your Web Developer skills.
 
 Technologies
 ====================
