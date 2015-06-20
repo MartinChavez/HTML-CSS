@@ -1,0 +1,61 @@
+/*Fonts*/
+/*Fonts and font styles can be controlled with CSS*/
+
+/*Changing the fonts*/
+
+/*Font-family*/
+/*It is a property that is used to set the ideal font and a few fallback options*/
+/*You can use this property on the body, if you want this font-family to apply to all the page*/
+body {
+    /*The ideal font is the first option*/
+    /*The browser tries to load the fonts in order*/
+    font-family: Helvetica, Arial, sans-serif;
+    /*Not all fonts are installed in all browsers*/
+}
+
+/*Browser Font Defaults*/
+/*The browser has default font styles that you could reset*/
+/*With this, the font weights and sizes won't follow an arbitrary default*/
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    font-size: 100%;
+    font:inherit;
+}
+
+/*Font Size*/
+/*The size of a font can be set with the font-size property*/
+h2{
+    font-size: 26px;
+}
+/*Font Thickness*/
+/*The thickness can be set with the font-weight property*/
+h2{
+    font-weight: bold;
+    /*These are other alternatives for Weight values*/
+    /*normal, lighter, bolder*/
+}
+/*You can also use numbers*/
+/*100 - 900*/
+h3{
+    font-weight: 900;
+}
+
+/*General Properties*/
+p{
+    font-weight: bolder;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*Line Height*/
+/* Has the same behaviour as margin for each line in a box*/
+/* Margin doesn't affect the spacing between lines in a single box*/
+/* Then, we can use line height*/
+div p{
+    line-height: 5px;
+}
+
+
+
+
+
