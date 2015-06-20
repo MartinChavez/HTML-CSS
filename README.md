@@ -4,8 +4,8 @@ This Tutorial will guide you to learn HTML and CSS. Each unit contains an annota
 
 Technologies
 ====================
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50px" height="50px" />
-<img src="http://ohdoylerules.com/content/images/css3.svg" width="50px" height="50px" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="70px" height="70px" />
+<img src="http://ohdoylerules.com/content/images/css3.svg" width="70px" height="70px" />
 
 Topics
 ================
@@ -162,6 +162,11 @@ ol li:first-child{
     color: lightcoral;
 }
 ```
+Learn by doing
+====================
+All the html files are linked to their respective CSS file (with the same name). Open your browser and start learning!
+<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Play.png"/>
+
 Questions ?
 ====================
 If you have any questions, please feel free to ask me:
