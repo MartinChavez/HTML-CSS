@@ -1,0 +1,60 @@
+/*Styling forms*/
+/* labels and inputs are inline-level tags*/
+/* In general, it is better to display one on top of the other like block-level tags*/
+.styled-form label,input{
+    display: block;
+}
+/*You can style the elements inside the form like any block-level tag*/
+.styled-form label{
+    margin-bottom: 10px;
+}
+.styled-form input{
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+/* Attribute selectors */
+/*A method to style a tag based on one of its attributes*/
+
+/* Styling the submit button separately */
+/* The submit button is an input tag so the previous input selector properties are affecting the way it is displayed*/
+
+/* In order to create this selector, you need the name of the attribute*/
+/* And the value of the attribute, and equal each other.*/
+.styled-form input[type=submit]{
+    width: 120px;
+    font-size: 30px;
+}
+
+/*Styling Inputs*/
+/*The container around an input is a border, so you can style it with the border property*/
+.styled-form input[type=text]{
+    border: 2px solid #7facaa;
+}
+
+/* Changing the height of an input*/
+/* In order to achieve this, you need to style the text inside */
+/* Also, the input border can be manipulated with padding to add some space between the border and the text */
+.styled-form input[type=text]{
+    font-size: 24px;
+    padding: 7px;
+}
+
+/*Styling textareas*/
+/* You can change the width and height for textareas*/
+/* But you can still use the same styles that are used in regular inputs*/
+textarea{
+    width: 500px;
+    height: 400px;
+    padding: 7px;
+    border: 2px solid #7facaa;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/*Styling checkboxes*/
+/* In general, you do not want the Label and the Checkbox to be on separate lines*/
+/* You can use attribute selectors to make the input and label display inline*/
+.styled-form input[type=checkbox], label[for=checkbox-label]{
+    display: inline;
+}
