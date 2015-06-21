@@ -1,6 +1,6 @@
 # HTML/CSS: Tutorial
 
-Use this tutorial as a guide to learning HTML and CSS. Each topical unit contains an annotated lesson that can assist you in web development.
+Use this tutorial as a guide to learn HTML and CSS. Each unit contains an annotated lesson that can assist you in developing your Web Development skills.
 
 Technologies
 ====================
