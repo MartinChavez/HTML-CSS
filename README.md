@@ -156,29 +156,31 @@ ol li:first-child{
 }
 ```
 
-TheBoxModel.css
+The Box Model
 ====================
 ```CSS
-/*The Box Model*/
+/* The Box Model */
+
 /*Every tag shown in the body is contained in an invisible rectangle called Box*/
 /*The box model is a way to describe the borders and spacing in between the boxes of each tag*/
 
 /*Block-level tags*/
+
 /*The content of block-level tags take up the entire width (horizontal space) of the container*/
 /*Every box is pushed to the line below*/
 
-/*Examples of block-level tags*/
+/*Examples of block-level tags : */
 /* h1 , h2,  h3,  p,  ul,  li*/
 
 /*Inline-level tags*/
 /*Every tag that is not block-level, is called inline-level/
-/*The content of these tags do not try to take the entire width of the container*/
+/*The content of this tags do not try to take the entire width of the container*/
 
-/*Examples of inline-level tags*/
+/*Examples of inline-level tags: */
 /* a, img , input, label*/
 
 /*Converting block-level tags into inline-level tags*/
-/*Allows you to display items horizontally instead of vertically*/
+/*Allow you to display items horizontally instead of vertically*/
 
 ul li {
     display: inline;
@@ -212,6 +214,97 @@ h2 {
     padding-bottom: 8px;
     padding-right: 9px;
     padding-left: 3px;
+}
+
+/*We can also these series of properties into a single line*/
+h2 {
+    padding: 4px 9px 8px 3px;
+    /*top right bottom left*/
+}
+
+/*Border*/
+/*You can set the border to all sides of the box*/
+h2 {
+    border-width: 14px;
+    border-style: solid;
+    border-color: blue;
+}
+
+/*We can also set these series of properties with a single line*/
+h2 {
+    border: 4px solid blue;
+    /*width style color*/
+}
+
+/*You can set the border to just one side of the box*/
+h2 {
+    border-bottom: 8px dotted forestgreen;
+    /*width style color*/
+}
+
+/*Margins*/
+/*It is possible to add every property at once*/
+h2 {
+    margin-top: 8px ;
+    margin-right : 5px;
+    margin-bottom: 7px;
+    margin-left: 12px;
+}
+/*We can also set these series of properties with a single line*/
+h2 {
+    margin: 8px 5px 7px 12px;
+         /*top right bottom left*/
+}
+
+/*When to use Padding*/
+/*It is used to control the size of a box without adjusting the size of the content inside the box*/
+
+/*When to use Margin*/
+/*Margin is used to control the space between boxes*/
+
+/*Default browser styles*/
+/*Browsers have a default stylesheet for when no custom styles are set*/
+
+/*Resetting default browser styles*/
+/*You can include one selector for every tag that is on the page*/
+html, body, h1, h2, h3, p, ol, ul, li, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* It is important to start writing CSS using this baseline, in order to achieve consistency between browsers */
+/* After CSS reset */
+
+/* Body tag */
+/* Add padding to push all of the children away from the edges of the body */
+body {
+    padding: 20px 20px 20px 20px;
+}
+
+/* Heading tags */
+/* Use margin to put vertical space between tags */
+h1{
+    margin: 10px 0 15px 0;
+}
+h2{
+    margin: 10px 0 20px 0;
+}
+
+/* Bottom borders*/
+/* Bottom borders visually separate the sections*/
+/* You can use padding to put some more space between the content and border */
+h1{
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+h2{
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+}
+/* Padding is also used to adjust lists and list item indentation*/
+ol{
+    padding: 0 0 0 50px;
 }
 ```
 Run and Play
