@@ -21,15 +21,15 @@ HTML Basics
 ```HTML
 <!--HTML: Basics-->
 
-<!--HTML: HyperText Markup Language-->
-<!--HTML, is the standard markup language used to create web pages-->
+<!--HTML: HyperText Markup Language -->
+<!--HTML is the standard markup language used to create web pages-->
 
 <!-- To add content, you should use HTML tags -->
 <!-- These pre-defined tags, have opening and closing versions -->
 
 
 <!-- <!DOCTYPE> tag -->
-<!-- Defines the HTML version the browser should use to display the HTML Tags-->
+<!-- Defines the HTML Version the browser should use to display the HTML Tags-->
 <!-- By writing <!DOCTYPE html> and not specifying the version, the browser will use the latest version-->
 <!DOCTYPE html>
 
@@ -43,11 +43,11 @@ HTML Basics
 <!-- All the not-visible content of the web page should be contained on the <head> tag -->
 <!-- You can use this tag to load scripts like CSS and Javascript -->
 
-<!--Nesting tags: HTML tags can contain other tags-->
-<head lang="en"><!-- the <head> tag is called the parent tag (for <meta> and <title>)-->
+<!-- Nesting tags: HTML tags can contain other tags -->
+<head lang="en"><!-- the <head> tag is called the parent tag (for <meta> and <title>) -->
     <meta charset="UTF-8">
     <!-- the <meta> tag is called a children tag (of <head>)-->
-    <title>HTML Basics</title><!-- the <title> tag is called a children tag (of <head>)-->
+    <title>HTML Basics</title><!-- the <title> tag is called a children tag (of <head>) -->
 </head>
 
 <!-- <link> tag -->
@@ -55,7 +55,7 @@ HTML Basics
 
 <!-- The type attribute set to text/css lets the browser know you are loading a CSS file -->
 <!-- The rel attribute is short for relationship-->
-<!-- The CSS selectors and rules are contained in the CSS file-->
+<!-- The CSS selectors and rules are contained in the CSS file -->
 <link rel="stylesheet" type="text/css" href="../CSS/Basics.css"><!-- The <link> is an empty tag, it doesn't have a closing tag -->
 
 
@@ -83,7 +83,7 @@ HTML Basics
 <p>This is another paragraph</p>
 
 <!-- <ul> Unordered List -->
-<!-- You can use unordered list tags to display a list fo items-->
+<!-- You can use unordered list tags to display a list fo items -->
 <ul>
     <!-- <li> list item -->
     <!-- Every list item needs to be put inside of  li tag -->
@@ -92,7 +92,7 @@ HTML Basics
     <li>List Item 3</li>
 </ul>
 
-<!-- You can use ordered list tags to display a list fo items in certain order-->
+<!-- You can use ordered list tags to display a list fo items in certain order -->
 <ol>
     <!-- <li> list item -->
     <!-- Every list item needs to be put inside of  li tag -->
@@ -100,35 +100,31 @@ HTML Basics
     <li>List Item 2</li>
     <li>List Item 3</li>
 </ol>
-
-</body>
-</html>
 ```
 CSS Basics
 ====================
 ```CSS
-/*CSS*/
+/* CSS */
 
-/*Set of rules for the styles of HTML elements*/
-/*It is used to change the appearance of HTML*/
+/* Set of rules for the styles of HTML elements */
+/* It is used to change the appearance of HTML */
 
-/*Selectors*/
-/*CSS elements that allow you to find HTML elements*/
+/* Selectors*/
+/* CSS elements that allow you to find HTML elements */
 
-/*Selectors: Type*/
-/* You can create a Type selector by writing the tag name without <> brackets*/
+/* Selectors: Type*/
+/* You can create a Type selectors by writing the tag name without <> brackets */
 p {
-    text-overline: 3;/* You can change any property of the tag*/
+    text-overline: 3;/* You can change any property of the tag */
 }
 
 /*Selector: Syntax*/
 /*
-
 selectorName {
     property: value;
 }
-
 */
+
 /* A single selector can change multiple properties*/
 p {
     text-overline: 3;
@@ -138,7 +134,7 @@ p {
 
 /* Selectors will select all matching tags on the page and apply the properties*/
 
-/* Descendant Selectors*/
+/* Descendant Selectors */
 /* They can be used to select tags only if they are children of another tag*/
 
 ul li {
@@ -147,8 +143,8 @@ ul li {
 }
 
 /* Pseudo Selectors*/
-/* Pseudo-selectors are modifiers that can be added to a selector to select a Tag
-only when a certain condition has occurred*/
+/* Pseudo-selector is a modifier that can be added to a selector to select a tag
+only when a certain condition has occurred */
 ul li:hover{
     color: pink;
 }
