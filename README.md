@@ -6,8 +6,8 @@ Use this tutorial as a guide to learn HTML and CSS. Each unit contains an annota
 
 Technologies
 ====================
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="70px" height="70px" />
-<img src="http://ohdoylerules.com/content/images/css3.svg" width="70px" height="70px" />
+<a name="README"><img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="70px" height="70px" /></a>
+<a name="README"><img src="http://ohdoylerules.com/content/images/css3.svg" width="70px" height="70px" /></a>
 
 Topics
 ================
