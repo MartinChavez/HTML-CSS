@@ -16,7 +16,7 @@ Topics
  - The Box Model
  - Web Forms
  
-Basics.html
+HTML Basics
 ====================
 ```HTML
 <!--HTML: Basics-->
@@ -104,7 +104,7 @@ Basics.html
 </body>
 </html>
 ```
- Basics.css
+CSS Basics
 ====================
 ```CSS
 /*CSS*/
