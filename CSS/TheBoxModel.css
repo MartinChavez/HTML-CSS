@@ -67,7 +67,7 @@ h2 {
     border-color: blue;
 }
 
-/*We can also these series of properties into a single line*/
+/*We can also set these series of properties with a single line*/
 h2 {
     border: 4px solid blue;
     /*width style color*/
@@ -87,7 +87,7 @@ h2 {
     margin-bottom: 7px;
     margin-left: 12px;
 }
-/*We can also these series of properties into a single line*/
+/*We can also set these series of properties with a single line*/
 h2 {
     margin: 8px 5px 7px 12px;
          /*top right bottom left*/
@@ -110,17 +110,17 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
     margin: 0;
 }
 
-/*It is important to start writing CSS using this baseline, in order to achieve consistency between browsers */
-/*After CSS reset*/
+/* It is important to start writing CSS using this baseline, in order to achieve consistency between browsers */
+/* After CSS reset */
 
-/*Body tag*/
-/*Add padding to push all of the children away from the edges of the body*/
+/* Body tag */
+/* Add padding to push all of the children away from the edges of the body */
 body {
     padding: 20px 20px 20px 20px;
 }
 
-/*Heading tags*/
-/*Use margin to put vertical space between tags*/
+/* Heading tags */
+/* Use margin to put vertical space between tags */
 h1{
     margin: 10px 0 15px 0;
 }
@@ -128,9 +128,9 @@ h2{
     margin: 10px 0 20px 0;
 }
 
-/*Bottom borders*/
-/*Bottom borders visually separate the sections*/
-/*You can use padding to put some more space between the content and border*/
+/* Bottom borders*/
+/* Bottom borders visually separate the sections*/
+/* You can use padding to put some more space between the content and border */
 h1{
     border-bottom: 1px solid #CCCCCC;
     padding-bottom: 3px;
@@ -139,7 +139,7 @@ h2{
     border-bottom: 1px solid #CCCCCC;
     padding-bottom: 3px;
 }
-/*Padding is also used to adjust lists and list item indentation*/
+/* Padding is also used to adjust lists and list item indentation*/
 ol{
     padding: 0 0 0 50px;
 }

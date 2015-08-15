@@ -82,15 +82,15 @@ img {
 }
 
 /* Adding text on top of Layout(Background) Images */
-/*You can achieve this by creating a <div> tag to completely contain a background image*/
-/*Then, you can insert text tags inside of it*/
+/* You can achieve this by creating a <div> tag to completely contain a background image */
+/* Then, you can insert text tags inside of it */
 .background-image-three{
     /*width and height should be equal to the size of the image*/
     width: 630px;
     height: 246px;
     background: cyan url(../Images/js.png) top left no-repeat;
 }
-/*You can then style the text inside to background image*/
+/*You can then style the text inside the background image*/
 .background-image-three h1{
     margin:0;
     background-color: whitesmoke;
@@ -100,7 +100,7 @@ img {
 }
 
 /* Floating images*/
-/* You can achieve this by putting the elements inside one <li> tag and float the desired element to the left*/
+/* You can achieve this by putting the elements inside one <li> tag and float the desired element to the left */
 .floating img{
     float:left;
     padding-right: 10px;
