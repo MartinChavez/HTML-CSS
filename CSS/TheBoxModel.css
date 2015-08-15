@@ -1,19 +1,21 @@
-/*The Box Model*/
+/* The Box Model */
+
 /*Every tag shown in the body is contained in an invisible rectangle called Box*/
 /*The box model is a way to describe the borders and spacing in between the boxes of each tag*/
 
 /*Block-level tags*/
+
 /*The content of block-level tags take up the entire width (horizontal space) of the container*/
 /*Every box is pushed to the line below*/
 
-/*Examples of block-level tags*/
+/*Examples of block-level tags : */
 /* h1 , h2,  h3,  p,  ul,  li*/
 
 /*Inline-level tags*/
 /*Every tag that is not block-level, is called inline-level/
 /*The content of this tags do not try to take the entire width of the container*/
 
-/*Examples of inline-level tags*/
+/*Examples of inline-level tags: */
 /* a, img , input, label*/
 
 /*Converting block-level tags into inline-level tags*/
