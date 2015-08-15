@@ -222,6 +222,76 @@ h2 {
     /*top right bottom left*/
 }
 ```
+Web Forms
+====================
+```HTML
+<!-- Web Forms -->
+<!-- Forms are a methodology for a web page to get input from a user -->
+
+<!-- Forms usually contain labels, inputs, text areas and submit buttons -->
+<!-- In general, the processing of the forms information requires a back-end service -->
+
+<!-- <form> tag-->
+<!-- You can use it to create a form and add elements inside of it -->
+<form>
+    <!-- <label> tag-->
+    <!-- Describes the type of information the user should enter-->
+    <label>Form</label>
+    <input type="text"/>
+    <!-- <input type="submit"> tag -->
+    <!-- Sends all the information from the form to the server -->
+    <input type="submit" value="Submit"/>
+</form>
+<br/>
+
+<!-- Form <input> types -->
+<!-- The type attribute sets the type of input fields that will be displayed -->
+<!-- These are common <input> types -->
+<form>
+    <input type="text"/>
+    <input type="checkbox"/>
+    <input type="radio"/>
+    <input type="file"/>
+    <input type="password"/>
+    <input type="submit">
+</form>
+```
+```CSS
+/* Styling forms*/
+/* labels and inputs are inline-level tags*/
+/* In general, it is better to display one on top of the other like block-level tags*/
+.styled-form label,input{
+    display: block;
+}
+/*You can style the elements inside the form like any block-level tag*/
+.styled-form label{
+    margin-bottom: 10px;
+}
+.styled-form input{
+    width: 500px;
+    margin-bottom: 25px;
+}
+
+/* Attribute selectors */
+/* A method to style a tag based on one of its attributes*/
+
+/* Styling the submit button separately */
+/* The submit button is an input tag so the previous input selector properties are affecting the way it is displayed */
+
+/* In order to create this selector, you need : */
+/* The name of the attribute and the value of the attribute */
+.styled-form input[type=submit]{
+    width: 120px;
+    font-size: 30px;
+}
+
+/* Styling Inputs */
+/* The container around an input is a border, so you can style it with the border property */
+.styled-form input[type=text]{
+    border: 2px solid #7facaa;
+}
+```
+
 Run and Play
 ====================
 All the html files are linked to their respective CSS file. Open your browser, change the content and start learning!
