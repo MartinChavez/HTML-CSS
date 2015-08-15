@@ -54,13 +54,13 @@ HTML Basics
 <!-- Allows you to reference other files that work together with this file-->
 
 <!-- The type attribute set to text/css lets the browser know you are loading a CSS file -->
-<!-- The rel attribute is short for relationship-->
+<!-- The 'rel' attribute is an abbreviation for 'relationship' -->
 <!-- The CSS selectors and rules are contained in the CSS file -->
 <link rel="stylesheet" type="text/css" href="../CSS/Basics.css"><!-- The <link> is an empty tag, it doesn't have a closing tag -->
 
 
 <!-- <body> tag -->
-<!-- All the visible content of the web page should be contained on the <body> tag -->
+<!-- All the visible content of the web page should be contained in the <body> tag -->
 <body>
 
 <!-- <h*> headers -->
@@ -86,13 +86,13 @@ HTML Basics
 <!-- You can use unordered list tags to display a list fo items -->
 <ul>
     <!-- <li> list item -->
-    <!-- Every list item needs to be put inside of  li tag -->
+    <!-- Every list item needs to be put in a <li> tag -->
     <li>List Item 1</li>
     <li>List Item 2</li>
     <li>List Item 3</li>
 </ul>
 
-<!-- You can use ordered list tags to display a list fo items in certain order -->
+<!-- You can use ordered list tags to display a list of items in a certain order -->
 <ol>
     <!-- <li> list item -->
     <!-- Every list item needs to be put inside of  li tag -->
@@ -106,8 +106,7 @@ CSS Basics
 ```CSS
 /* CSS */
 
-/* Set of rules for the styles of HTML elements */
-/* It is used to change the appearance of HTML */
+/* CSS is the language for describing the presentation of HTML elements */
 
 /* Selectors*/
 /* CSS elements that allow you to find HTML elements */
@@ -150,7 +149,7 @@ ul li:hover{
 }
 
 /* Pseudo Selector: First Child*/
-/* The :first-child pseudo-selector can be applied to narrow the amount of child selected*/
+/* The :first-child pseudo-selector can be applied to narrow the amount of children selected */
 ol li:first-child{
     color: lightcoral;
 }
@@ -174,7 +173,7 @@ The Box Model
 
 /*Inline-level tags*/
 /*Every tag that is not block-level, is called inline-level/
-/*The content of this tags do not try to take the entire width of the container*/
+/*The content of these tags do not take the entire width of the container */
 
 /*Examples of inline-level tags: */
 /* a, img , input, label*/
@@ -229,7 +228,7 @@ Web Forms
 <!-- Forms are a methodology for a web page to get input from a user -->
 
 <!-- Forms usually contain labels, inputs, text areas and submit buttons -->
-<!-- In general, the processing of the forms information requires a back-end service -->
+<!-- In general, the processing of the forms' information requires a back-end service -->
 
 <!-- <form> tag-->
 <!-- You can use it to create a form and add elements inside of it -->
