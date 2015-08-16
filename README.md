@@ -229,7 +229,7 @@ Web Forms
 <!-- A Form is an element that allows a web page to get input from a user -->
 
 <!-- Forms usually contain labels, inputs, text areas and submit buttons -->
-<!-- In general, the processing a form's information requires a back-end service -->
+<!-- In general, the processing of a form's information requires a back-end service -->
 
 <!-- <form> tag-->
 <!-- You can use it to create a form and add elements inside of it -->
