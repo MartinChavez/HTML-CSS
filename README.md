@@ -92,10 +92,11 @@ HTML Basics
     <li>List Item 3</li>
 </ul>
 
-<!-- You can use ordered list tags to display a list of items in a certain order -->
+<!-- <ol> Ordered List -->
+<!-- You can use ordered list tags to display a list of items in order -->
 <ol>
     <!-- <li> list item -->
-    <!-- Every list item needs to be put inside of  li tag -->
+    <!-- Every list item needs to be put in a <li> tag -->
     <li>List Item 1</li>
     <li>List Item 2</li>
     <li>List Item 3</li>
