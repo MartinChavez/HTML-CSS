@@ -207,7 +207,7 @@ ul li {
 /* Content Area width + padding-left + padding-right + border-left + border-right + margin-left + margin-right*/
 
 /*Applying the box model properties*/
-/*It is possible to add every property at once*/
+/*It is possible to add every property individually*/
 /*Padding*/
 h2 {
     padding-top: 4px;
@@ -216,7 +216,7 @@ h2 {
     padding-left: 3px;
 }
 
-/*We can also these series of properties into a single line*/
+/*We can also add these properties with a single line*/
 h2 {
     padding: 4px 9px 8px 3px;
     /*top right bottom left*/
