@@ -226,7 +226,7 @@ Web Forms
 ====================
 ```HTML
 <!-- Web Forms -->
-<!-- Forms are a methodology for a web page to get input from a user -->
+<!-- A Form is an element that allows a web page to get input from a user -->
 
 <!-- Forms usually contain labels, inputs, text areas and submit buttons -->
 <!-- In general, the processing of the forms' information requires a back-end service -->
