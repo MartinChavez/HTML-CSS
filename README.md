@@ -229,7 +229,7 @@ Web Forms
 <!-- A Form is an element that allows a web page to get input from a user -->
 
 <!-- Forms usually contain labels, inputs, text areas and submit buttons -->
-<!-- In general, the processing of the forms' information requires a back-end service -->
+<!-- In general, the processing a form's information requires a back-end service -->
 
 <!-- <form> tag-->
 <!-- You can use it to create a form and add elements inside of it -->
@@ -278,7 +278,7 @@ Web Forms
 /* Styling the submit button separately */
 /* The submit button is an input tag so the previous input selector properties are affecting the way it is displayed */
 
-/* In order to create this selector, you need : */
+/* In order to create this selector, you need: */
 /* The name of the attribute and the value of the attribute */
 .styled-form input[type=submit]{
     width: 120px;
@@ -294,7 +294,7 @@ Web Forms
 
 Run and Play
 ====================
-All the html files are linked to their respective CSS file. Open your browser, change the content and start learning!
+All the html files are linked to their respective CSS files. Open your browser, change the content and start learning!
 
 <img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/learnImage.png"/>
 
