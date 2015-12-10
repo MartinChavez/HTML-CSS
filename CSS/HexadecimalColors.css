@@ -1,7 +1,7 @@
 /*Hexadecimal colors*/
 /*You can specify different colors in CSS using hexadecimal numbers*/
 
-p {
+.red {
     /*This is an example of a color specified in a word*/
     color: red;
     /*This is an example of a color specified in hexadecimal*/
